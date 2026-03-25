@@ -1,7 +1,4 @@
-try:
-    from .htmlnode import HTMLNode
-except Exception:
-    from htmlnode import HTMLNode
+from .htmlnode import HTMLNode
 
 class ParentNode(HTMLNode):
     def __init__(self, tag, children, props=None):
